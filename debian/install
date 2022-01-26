@@ -1,0 +1,2 @@
+usr/lib/dovecot/modules/*.so
+usr/lib/dovecot/modules/doveadm/*.so

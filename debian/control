@@ -1,0 +1,28 @@
+Source: dovecot-fts-flatcurve
+Section: mail
+Priority: optional
+Maintainer: Benedikt Trefzer <benedikt.trefzer@cirrax.com>
+Build-Depends: debhelper-compat (= 13)
+ , dovecot-dev
+ , libxapian-dev
+ , libicu-dev (>= 60~)
+ , libsqlite3-dev
+ , pkg-config
+ , git
+Standards-Version: 4.5.1
+Homepage: https://github.com/slusarz/dovecot-fts-flatcurve
+Rules-Requires-Root: no
+
+Package: dovecot-fts-flatcurve
+Architecture: any
+Enhances: dovecot-imapd, dovecot-pop3d
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: full-text search for dovecot using flatcurve (xapian)
+ Dovecot FTS plugin to enable message indexing using the Xapian
+ Open Source Search Engine Library.
+ .
+ The plugin relies on Dovecot to do the necessary stemming.
+ It is intended to act as a simple interface to the Xapian
+ storage/search query functionality.
+ .
+ There are intentions to include this into dovecot core !

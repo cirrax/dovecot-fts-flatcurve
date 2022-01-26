@@ -1,0 +1,5 @@
+dovecot-fts-flatcurve (0.2.0-1) unstable; urgency=medium
+
+  * Initial release. 
+
+ -- Benedikt Trefzer <benedikt.trefzer@cirrax.com>  Wed, 26 Jan 2022 14:03:26 +0100

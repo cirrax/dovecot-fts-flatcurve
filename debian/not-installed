@@ -1,0 +1,5 @@
+usr/lib/dovecot/modules/*.la
+usr/lib/dovecot/modules/*.a
+usr/lib/dovecot/modules/doveadm/*.la
+usr/lib/dovecot/modules/doveadm/*.a
+usr/include/dovecot-fts-flatcurve/*.h

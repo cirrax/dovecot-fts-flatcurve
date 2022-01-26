@@ -1,0 +1,5 @@
+
+dovecot-fts-flatcurve source: debian-watch-file-is-missing
+dovecot-fts-flatcurve source: debian-adds-git-control-dir .git/
+dovecot-fts-flatcurve source: unsupported-source-format 3.0 (git)
+dovecot-fts-flatcurve source: empty-upstream-sources
